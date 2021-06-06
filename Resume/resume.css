@@ -1,0 +1,129 @@
+.cont{
+    padding: 4%;
+    margin-top: 0%;
+}
+body{
+    background-color: #FFF;
+}
+.bord{
+    padding:2%;
+    background-color: aliceblue;
+    margin-top:0%;
+    box-shadow: 1px 1px 5px 5px rgba(136, 132, 132,0.3);
+}
+.lower{
+    background-color: chartreuse;
+}
+.name{
+    padding:3%;
+    margin:0;
+    background-color: #FFF;
+    }
+    .left{
+        color:#000;
+        background-color: #FFF;
+        padding: 7px;
+    }
+    .right{
+        background-color: #011e2c;
+        color:#FFF;
+    }
+    h5{
+        color:rgb(1, 30, 44);
+        font-weight: bolder;
+        margin-bottom: 5px;
+    }
+    .heading{
+        padding-top:12px;
+        padding-left:7px;
+    }
+    p,li{
+        font-size: 12px;
+    }
+   
+    .nam{
+        font-size: 13px;
+        font-weight:bold;
+        margin-left: 15px;
+    }
+    .year{
+        font-size: 10px;
+        right:0px;
+    }
+    .tri_up{
+        width:0px;
+        height:0px;
+        border-bottom: 10px solid rgb(1, 15, 22);
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+    }
+    .mid{
+        width:39px;
+        height:27px;
+        background-color: rgb(1, 15, 22);
+    }
+    .tri_down{
+        width:0px;
+        height:0px;
+        border-top: 10px solid rgb(1, 15, 22);
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+    }
+    .path{
+        fill:none;
+        stroke-width: 5;
+        stroke:rgb(1, 13, 20);
+        margin:auto;
+    }
+    .progress{
+        
+        fill:none;
+        stroke-width: 7;
+        stroke:rgb(16, 207, 255);
+        stroke-dasharray: 370;
+        stroke-dashoffset:300;
+        transform: rotate(-90deg);
+        transform-origin: center;
+    }
+    svg{
+        display: inline-block;
+        width: 100px;
+        height:100px;
+        margin-left:22px;
+    }
+    .hexa{
+        display: inline-block;
+        margin:10px;
+    }
+i{
+    margin:auto auto;
+    padding:auto auto;
+    transform: scale(1.4);
+}
+.mid i{
+    margin-top:5px;
+}
+.percent{
+    width:50%;
+    position: relative;
+    top:0;
+    left:-65;
+    color:#FFF;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+   
+}
+h6,p{
+    margin-left: 15px;
+}
+.myname{
+    margin: 10px 10px;
+    font-weight: 900;
+    color:rgb(1, 30, 44);
+    
+}
+.heading i{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
