@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <p>
+        1. Write a JavaScript program to list the properties of a JavaScript object.<br> Sample object: var student = { name : "David Rayy", sclass : "VI", rollno : 12 };<br> Sample Output: name,sclass,rollno
+        <hr>
+
+ 2. Write a JavaScript program to delete the rollno property from the following object. <br>Also print the object before or after deleting the property.<br> Sample object: var student = { name : "David Rayy", sclass : "VI", rollno : 12 }; 
+ <hr>
+
+3. Write a JavaScript program to get the length of a JavaScript object.<br>  Sample object : var student = { name : "David Rayy", sclass : "VI", rollno : 12 }; 
+<hr>
+
+4. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.<br> var library = [ { author: 'Bill Gates', title: 'The Road Ahead', readingStatus: true },<br> { author: 'Steve Jobs', title: 'Walter Isaacson', readingStatus: true }, <br>{ author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', readingStatus: false }]; 
+<hr>
+
+5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.<br> Volume of a cylinder : V = πr2h where r is the radius and h is the height of the cylinder. <br><br><b>Input hte values to get resukts: </b>
+<input type="number" placeholder="radius" id="r">
+        <input type="number" placeholder="height" id="h">
+        <button onclick=chalao()>Ans</button>
+        <input type="number" placeholder="volume" id="v" value="0">
+        <!-- <div id="v">volume of cylinder</div> --> 
+        <br><br>
+<hr>
+
+6. Write a JavaScript program to sort an array of JavaScript objects. <br> Sample Object : <br>var library = [ { title: 'The Road Ahead', author: 'Bill Gates', libraryID: 1254 }, <br>{ title: 'Walter Isaacson', author: 'Steve Jobs', libraryID: 4264 },<br> { title: 'Mockingjay: The Final Book of The Hunger Games', author: 'Suzanne Collins', libraryID: 3245 }]; <br>Expected Output: <br>[[object Object] { author: "Walter Isaacson", libraryID: 4264, title: "Steve Jobs" },<br> [object Object] { author: "Suzanne Collins", libraryID: 3245, title: "Mockingjay: The Final Book of The Hunger Games" }, <br>[object Object] { author: "The Road Ahead", libraryID: 1254, title: "Bill Gates" }]
+</p>
+        <script>
+
+       // question 1
+
+       console.log("Question 1: ");
+            const a={
+                name : "David Rayy", sclass : "VI", rollno : 12 
+            }
+            console.log(a);
+            
+
+            // var b=[[0,1,2,3],4,5];
+            // console.log(b[0][0]);
+
+        //question 2
+
+        console.log("Question 2: ");
+        var student = { name : "David Rayy", sclass : "VI", rollno : 12 }; 
+        console.log(student);
+        delete student.rollno;
+        console.log(student);
+        //         var student =  { 
+        //   name : "David Rayy", 
+        //   sclass : "VI", 
+        //   rollno : 12  };
+        // console.log(student);
+        // delete student.rollno;
+        // student.hh='samriddhi';
+        // console.log(student);
+        
+        // var st=10;
+        // console.log(st);
+        // st=12;
+        // console.log(st);
+
+        //    question 3
+            console.log("Question 3: ");
+           console.log(Object.keys(a).length);
+
+          //  question 4
+          console.log("Question 4: ");
+            var library = [ { author: 'Bill Gates',
+                            title: 'The Road Ahead',
+                            readingStatus: true }, 
+                            { author: 'Steve Jobs', title: 'Walter Isaacson', readingStatus: true },
+                             { author: 'Suzanne Collins', 
+                             title: 'Mockingjay: The Final Book of The Hunger Games',
+                              readingStatus: false }]; 
+            console.log(library);
+            //question 6
+            console.log("Question 6: ");
+           function chalao(){
+            var cylinder={};
+            cylinder.rad=document.querySelector('#r').value;
+            cylinder.hei=document.querySelector('#h').value;
+            var ans=(cylinder.rad*cylinder.rad*cylinder.hei*22)/7;
+            console.log(ans);
+            const vol=document.querySelector('#v');
+            vol.value=ans.toFixed(4);
+           }
+
+           var library = [ { title: 'The Road Ahead', author: 'Bill Gates', libraryID: 1254 }, { title: 'Walter Isaacson', author: 'Steve Jobs', libraryID: 4264 }, { title: 'Mockingjay: The Final Book of The Hunger Games', author: 'Suzanne Collins', libraryID: 3245 }];
+            
+          
+            library.sort((a, b) => b.libraryID -a.libraryID);
+        
+             library.forEach((e) => {
+             console.log(`${e.author} ${e.libraryID} ${e.title}`);
+            });
+
+            // for (let obj of library)
+            // {
+            //     console.log(`${obj.libraryID}`);
+            // }
+         
+
+                </script>
+    </body>
+</html>
