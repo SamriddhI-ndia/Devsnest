@@ -1,0 +1,35 @@
+
+.hori{
+    background-color:turquoise;
+    width:40px;
+    height:40px;
+    display: inline-block;
+    border: 0.05px solid white;
+}
+.hori:hover{
+    background-color: rgb(5, 186, 189);
+}
+
+.cont{
+    display: flex;
+    margin-top: 3%;
+    height:100vh;
+    position: relative;
+    user-select: none;
+}
+.reserved{
+    background-color:  rgb(3, 142, 145);
+}
+.one,.two{
+    padding:3%;
+    background-color: rgb(38, 129, 120);
+    color:black;
+    display: inline-flex;
+    margin:auto;
+    justify-content: center;
+    margin:2%;
+    color:rgb(10, 36, 33);
+}
+
+
+
