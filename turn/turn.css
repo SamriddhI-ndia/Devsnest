@@ -1,0 +1,23 @@
+
+.hori{
+    position: relative;
+    background-color:turquoise;
+    width:20px;
+    height:20px;
+    display: inline-block;
+    border: 0.05px solid white;
+   }
+.hori:hover{
+    background-color: rgb(10, 219, 223);
+}
+.verti{
+    width:400px;
+    height:20px;
+  
+}
+.cont{
+    display: flex;
+    margin-top: 10%;
+    height:100vh;
+}
+
