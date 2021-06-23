@@ -32,6 +32,7 @@ var hh=document.querySelectorAll('.hori');
        }
        console.log(a);
        document.querySelector('.here').innerHTML=a;
+        document.querySelector('.here2').innerHTML=100-a;
     });
  }
  
