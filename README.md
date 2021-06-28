@@ -15,3 +15,5 @@
 
 [SEAT RESERVATION](https://samriddhi-ndia.github.io/Devsnest/seat_reservation/seat_reservation.html)
 
+[MEMORY GAME](https://samriddhi-ndia.github.io/Devsnest/memoryGame/memoryGame.html)
+
