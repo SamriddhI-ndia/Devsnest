@@ -17,3 +17,5 @@
 
 [MEMORY GAME](https://samriddhi-ndia.github.io/Devsnest/memoryGame/memoryGame.html)
 
+[JAVASCRIPT QUIZ](https://samriddhi-ndia.github.io/Devsnest/Javascript_quiz/index.html)
+
