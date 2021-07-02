@@ -20,3 +20,5 @@
 [JAVASCRIPT QUIZ](https://samriddhi-ndia.github.io/Devsnest/Javascript_quiz/index.html)
 
 [TO-DO List](https://samriddhi-ndia.github.io/Devsnest/To-do-list/to_do.html)
+
+[SNAKE GAME](https://samriddhi-ndia.github.io/Devsnest/snakeGame/index.html)
