@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .cont,.col{
+    z-index: 1;
+}
+.text{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin:auto;
+    padding:auto;
+}
+.main{
+    color:white;
+    padding:1%;
+    overflow-wrap: break-word;
+    z-index: 1;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    background:rgba(225,225,225,0.1);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding:4%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(14,14,14)!important;
+}
+body::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,teal,white);
+    clip-path: circle(40% at right 90%);
+}
+body::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,teal);
+    clip-path: circle(25% at 10% 10%);
+    border: 2px solid black;
+}
+.cont::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(white,black);
+    clip-path: circle(10% at 2% 90%);
+}
+
+.quiz{
+    font-size:5rem;
+    font-weight: bolder;
+    background:linear-gradient(teal,white,black);
+    text-shadow: 4px 4px 20px rgb(0, 0, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play{
+    width:150px;
+    height:60px;
+    background:linear-gradient(rgb(22, 22, 22),teal);
+    border-radius: 20px;
+    font-size:2rem;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin:3vmin;
+}
+p{
+    margin:6vmin;
+}
+h5{
+    margin:2vmin;
+}
+    </style>
+</head>
+<body>
+  
+    <div class="container cont h-100">
+        
+        <div class="row d-flex justify-content-center align-items-center" style="height:776px">
+            <div class="col-sm-2">
+
+            </div>
+            <div class="col-8 main">
+                <center>
+                <h1 class="quiz">SNAKE GAME</h1>
+                <p><h5>INSTRUCTIONS:</h5>AIM: Make the snake to have the food.<br>-Press Left-Arrow to move left.<br>-Press Right-Arrow to move right.<br>-Press Down-Arrow to move down.<br>-Press Up-Arrow to move Up.<br></p>
+                <button class="play" onclick="location.href='snakeGame.html'">PLAY</button>
+                </center>
+            </div>
+            <div class="col-sm-2">
+               
+            </div>
+        </div>
+    </div>
+    
+    
+    <script ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
