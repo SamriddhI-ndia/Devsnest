@@ -1,0 +1,43 @@
+#box{
+    background: rgb(0, 0, 0,0.8);
+    color:#fff;
+    margin-top: 12vmin;
+    backdrop-filter: blur(10px);
+}
+
+.list-group-item{
+    background: linear-gradient(rgb(255, 230, 0),yellow)!important;
+    font-weight: 500;
+}
+#details{
+    background: yellow;
+
+}
+h1,h4{
+    font-weight: bold;
+}
+.btn{
+    background: linear-gradient(rgb(255, 230, 0),rgb(238, 214, 3));
+    margin:5vmin;
+    color:#000!important;
+    font-weight: 500!important;
+}
+.desk{
+    color:yellow;
+}
+h1{
+    margin:4vmin!important;
+}
+body{
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black{
+    width:100vw;
+    height:100vh;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    left:0;
+}
