@@ -21,4 +21,6 @@
 
 [TO-DO List](https://samriddhi-ndia.github.io/Devsnest/To-do-list/to_do.html)
 
+[WEATHER APP](https://samriddhi-ndia.github.io/Devsnest/weather_api/weather.html)
+
 [SNAKE GAME](https://samriddhi-ndia.github.io/Devsnest/snakeGame/index.html)
